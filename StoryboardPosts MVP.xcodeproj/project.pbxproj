@@ -18,16 +18,13 @@
 		F3D74E39273A2E52000E4F10 /* StoryboardPosts_MVPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D74E38273A2E52000E4F10 /* StoryboardPosts_MVPTests.swift */; };
 		F3D74E43273A2E52000E4F10 /* StoryboardPosts_MVPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D74E42273A2E52000E4F10 /* StoryboardPosts_MVPUITests.swift */; };
 		F3D74E45273A2E52000E4F10 /* StoryboardPosts_MVPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D74E44273A2E52000E4F10 /* StoryboardPosts_MVPUITestsLaunchTests.swift */; };
-		F3D74E5B273A4A76000E4F10 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D74E5A273A4A76000E4F10 /* HomeView.swift */; };
-		F3D74E5D273A4A80000E4F10 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D74E5C273A4A80000E4F10 /* HomePresenter.swift */; };
+		F3D74E5D273A4A80000E4F10 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D74E5C273A4A80000E4F10 /* HomeViewModel.swift */; };
 		F3D74E60273A4A95000E4F10 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D74E5E273A4A95000E4F10 /* HomeViewController.swift */; };
 		F3D74E61273A4A95000E4F10 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3D74E5F273A4A95000E4F10 /* HomeViewController.xib */; };
-		F3D74E64273A4AC1000E4F10 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D74E63273A4AC1000E4F10 /* CreateView.swift */; };
-		F3D74E66273A4AD5000E4F10 /* CreatePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D74E65273A4AD5000E4F10 /* CreatePresenter.swift */; };
+		F3D74E66273A4AD5000E4F10 /* CreateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D74E65273A4AD5000E4F10 /* CreateViewModel.swift */; };
 		F3D74E69273A4AE2000E4F10 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D74E67273A4AE2000E4F10 /* CreateViewController.swift */; };
 		F3D74E6A273A4AE2000E4F10 /* CreateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3D74E68273A4AE2000E4F10 /* CreateViewController.xib */; };
-		F3D74E6D273A4AF2000E4F10 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D74E6C273A4AF2000E4F10 /* EditView.swift */; };
-		F3D74E6F273A4B01000E4F10 /* EditPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D74E6E273A4B01000E4F10 /* EditPresenter.swift */; };
+		F3D74E6F273A4B01000E4F10 /* EditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D74E6E273A4B01000E4F10 /* EditViewModel.swift */; };
 		F3D74E72273A4B10000E4F10 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D74E70273A4B10000E4F10 /* EditViewController.swift */; };
 		F3D74E73273A4B10000E4F10 /* EditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3D74E71273A4B10000E4F10 /* EditViewController.xib */; };
 		F3D74E75273A4B1E000E4F10 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D74E74273A4B1E000E4F10 /* Post.swift */; };
@@ -76,16 +73,13 @@
 		F3D74E3E273A2E52000E4F10 /* StoryboardPosts MVPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StoryboardPosts MVPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D74E42273A2E52000E4F10 /* StoryboardPosts_MVPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardPosts_MVPUITests.swift; sourceTree = "<group>"; };
 		F3D74E44273A2E52000E4F10 /* StoryboardPosts_MVPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardPosts_MVPUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F3D74E5A273A4A76000E4F10 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		F3D74E5C273A4A80000E4F10 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		F3D74E5C273A4A80000E4F10 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		F3D74E5E273A4A95000E4F10 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F3D74E5F273A4A95000E4F10 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
-		F3D74E63273A4AC1000E4F10 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
-		F3D74E65273A4AD5000E4F10 /* CreatePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePresenter.swift; sourceTree = "<group>"; };
+		F3D74E65273A4AD5000E4F10 /* CreateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewModel.swift; sourceTree = "<group>"; };
 		F3D74E67273A4AE2000E4F10 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
 		F3D74E68273A4AE2000E4F10 /* CreateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateViewController.xib; sourceTree = "<group>"; };
-		F3D74E6C273A4AF2000E4F10 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
-		F3D74E6E273A4B01000E4F10 /* EditPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPresenter.swift; sourceTree = "<group>"; };
+		F3D74E6E273A4B01000E4F10 /* EditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewModel.swift; sourceTree = "<group>"; };
 		F3D74E70273A4B10000E4F10 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 		F3D74E71273A4B10000E4F10 /* EditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditViewController.xib; sourceTree = "<group>"; };
 		F3D74E74273A4B1E000E4F10 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
@@ -222,7 +216,7 @@
 		F3D74E53273A49E1000E4F10 /* home */ = {
 			isa = PBXGroup;
 			children = (
-				F3D74E59273A4A62000E4F10 /* presenter */,
+				F3D74E59273A4A62000E4F10 /* viewModel */,
 				F3D74E5E273A4A95000E4F10 /* HomeViewController.swift */,
 				F3D74E5F273A4A95000E4F10 /* HomeViewController.xib */,
 			);
@@ -232,7 +226,7 @@
 		F3D74E54273A49EA000E4F10 /* create */ = {
 			isa = PBXGroup;
 			children = (
-				F3D74E62273A4A9B000E4F10 /* presenter */,
+				F3D74E62273A4A9B000E4F10 /* viewModel */,
 				F3D74E67273A4AE2000E4F10 /* CreateViewController.swift */,
 				F3D74E68273A4AE2000E4F10 /* CreateViewController.xib */,
 			);
@@ -242,7 +236,7 @@
 		F3D74E55273A49F1000E4F10 /* edit */ = {
 			isa = PBXGroup;
 			children = (
-				F3D74E6B273A4AE6000E4F10 /* presenter */,
+				F3D74E6B273A4AE6000E4F10 /* viewModel */,
 				F3D74E70273A4B10000E4F10 /* EditViewController.swift */,
 				F3D74E71273A4B10000E4F10 /* EditViewController.xib */,
 			);
@@ -276,31 +270,28 @@
 			path = apputils;
 			sourceTree = "<group>";
 		};
-		F3D74E59273A4A62000E4F10 /* presenter */ = {
+		F3D74E59273A4A62000E4F10 /* viewModel */ = {
 			isa = PBXGroup;
 			children = (
-				F3D74E5A273A4A76000E4F10 /* HomeView.swift */,
-				F3D74E5C273A4A80000E4F10 /* HomePresenter.swift */,
+				F3D74E5C273A4A80000E4F10 /* HomeViewModel.swift */,
 			);
-			path = presenter;
+			path = viewModel;
 			sourceTree = "<group>";
 		};
-		F3D74E62273A4A9B000E4F10 /* presenter */ = {
+		F3D74E62273A4A9B000E4F10 /* viewModel */ = {
 			isa = PBXGroup;
 			children = (
-				F3D74E63273A4AC1000E4F10 /* CreateView.swift */,
-				F3D74E65273A4AD5000E4F10 /* CreatePresenter.swift */,
+				F3D74E65273A4AD5000E4F10 /* CreateViewModel.swift */,
 			);
-			path = presenter;
+			path = viewModel;
 			sourceTree = "<group>";
 		};
-		F3D74E6B273A4AE6000E4F10 /* presenter */ = {
+		F3D74E6B273A4AE6000E4F10 /* viewModel */ = {
 			isa = PBXGroup;
 			children = (
-				F3D74E6C273A4AF2000E4F10 /* EditView.swift */,
-				F3D74E6E273A4B01000E4F10 /* EditPresenter.swift */,
+				F3D74E6E273A4B01000E4F10 /* EditViewModel.swift */,
 			);
-			path = presenter;
+			path = viewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -546,21 +537,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3D74E6F273A4B01000E4F10 /* EditPresenter.swift in Sources */,
+				F3D74E6F273A4B01000E4F10 /* EditViewModel.swift in Sources */,
 				F3D74E69273A4AE2000E4F10 /* CreateViewController.swift in Sources */,
 				F3D74E78273A4B4C000E4F10 /* PostTableViewCell.swift in Sources */,
 				F3D74E60273A4A95000E4F10 /* HomeViewController.swift in Sources */,
-				F3D74E5B273A4A76000E4F10 /* HomeView.swift in Sources */,
 				F3D74E7D273A4DD4000E4F10 /* BaseViewController.swift in Sources */,
 				F3D74E22273A2E4E000E4F10 /* AppDelegate.swift in Sources */,
 				F3D74E24273A2E4E000E4F10 /* SceneDelegate.swift in Sources */,
-				F3D74E6D273A4AF2000E4F10 /* EditView.swift in Sources */,
 				F3D74E75273A4B1E000E4F10 /* Post.swift in Sources */,
-				F3D74E64273A4AC1000E4F10 /* CreateView.swift in Sources */,
-				F3D74E66273A4AD5000E4F10 /* CreatePresenter.swift in Sources */,
+				F3D74E66273A4AD5000E4F10 /* CreateViewModel.swift in Sources */,
 				F3D74E72273A4B10000E4F10 /* EditViewController.swift in Sources */,
 				F3D74E7B273A4CF1000E4F10 /* Network.swift in Sources */,
-				F3D74E5D273A4A80000E4F10 /* HomePresenter.swift in Sources */,
+				F3D74E5D273A4A80000E4F10 /* HomeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -743,6 +731,7 @@
 				DEVELOPMENT_TEAM = RXC5B5KH7P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "StoryboardPosts MVP/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "StoryboardPosts MVVM";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -753,7 +742,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.juraev.StoryboardPosts-MVP";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juraev.StoryboardPosts-MVVM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -772,6 +761,7 @@
 				DEVELOPMENT_TEAM = RXC5B5KH7P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "StoryboardPosts MVP/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "StoryboardPosts MVVM";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -782,7 +772,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.juraev.StoryboardPosts-MVP";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juraev.StoryboardPosts-MVVM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

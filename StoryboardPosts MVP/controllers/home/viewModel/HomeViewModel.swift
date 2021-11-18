@@ -1,20 +1,16 @@
 //
-//  HomePresenter.swift
+//  HomeViewModel.swift
 //  StoryboardPosts MVP
 //
-//  Created by Asadulla Juraev on 09/11/21.
+//  Created by Asadulla Juraev on 09/18/21.
 //
 
 import Foundation
+import Bond
 
-protocol HomePresenterProtocol{
-    func apiPostList()
-    func apiPostDelete(post: Post)
-}
-
-class HomePresenter: HomePresenterProtocol{
-    var homeView: HomeView!
+class HomeViewModel{
     var controller: BaseViewController!
+    var items = Observable<[Post]>([])
     
     func apiPostList(){
         controller?.showProgress()
@@ -23,25 +19,24 @@ class HomePresenter: HomePresenterProtocol{
             switch response.result {
             case .success:
                 let posts = try! JSONDecoder().decode([Post].self, from: response.data!)
-                self.homeView.onLoadPosts(posts: posts)
+                self.items.value = posts
             case let .failure(error):
                 print(error)
-                self.homeView.onLoadPosts(posts: [Post]())
             }
         }
     }
 
-    func apiPostDelete(post: Post){
+    func apiPostDelete(post: Post, completion: @escaping (Bool) -> Void){
         controller?.showProgress()
         AFHttp.del(url: AFHttp.API_POST_DELETE + post.id!, params: AFHttp.paramsEmpty(), handler: { response in
             self.controller?.hideProgress()
             switch response.result {
             case .success:
                 print(response.result)
-                self.homeView.onPostDelete(deleted: true)
+                completion(true)
             case let .failure(error):
                 print(error)
-                self.homeView.onPostDelete(deleted: false)
+                completion(false)
             }
         })
     }
